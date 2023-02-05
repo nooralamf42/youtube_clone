@@ -1,0 +1,238 @@
+/* for body */
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 0;
+}
+
+/* border for elements */
+
+.search-btn, .nav2 input{
+    border: solid #c6c6c6 .5px;
+}
+
+/* for navbar */
+
+nav {
+    background-color: white;
+    display: flex;
+    align-content: center;
+    position: sticky;
+    top:0;
+    justify-content: space-between;
+    padding: 0 10px;
+    padding-top: 10px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav button{
+    border: none;
+    background-color: white;
+}
+
+nav button>img{
+    width: 100%;
+}
+
+.profile-img{
+    width: 31px;
+    border-radius: 50%;
+}
+
+.nav1 span{
+    margin-bottom: 20px;
+    font-size: 12.5px;
+    margin-left: -8px;
+}
+
+.nav2{
+    gap: 0;
+}
+
+.nav2 input{
+    width: 519px;
+    height: 38px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #111111;
+    padding-left: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-right: 0;
+}
+
+.search-btn{
+    background-color: #f4f4f4;
+    padding: 0 20px;
+    border-left: 0px;
+    height: 41.5px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+/* yt feed */
+.yt-feed{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    position: sticky;
+    top: 52px;
+    background-color: white;
+    overflow: auto;
+    margin-bottom: 15px;
+    
+}
+
+.yt-feed p{
+    background-color: #f0f0f0;
+    padding: 6px 12px;
+    height: 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+}
+
+#current-feed{
+    background-color: black;
+    color: white;
+    margin-left: 82px;
+}
+
+/* side nav*/
+
+.side-navbar{
+    text-align: center;
+    position: fixed;
+    margin-top: -65px;
+}
+
+.side-navbar img{
+    padding-top: 14px;
+}
+.side-navbar p{
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    padding-bottom: 16px;
+    text-decoration: underline #ededed;
+    text-underline-offset: 8px;
+}
+
+/* content box */
+
+.content-box{
+    padding-left: 70px;
+}
+
+
+/* video box inside content box */
+
+.video-box{
+    display: flex;
+}
+
+.video-card{
+    width: 344px;
+    margin: 0 8px;
+}
+
+.thumbnial{
+    position: relative;
+    z-index: -1;
+}
+
+.video-length{
+    width: 32px;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #111111;
+    position: absolute;
+    bottom: -5px;
+    right: 5px;
+}
+
+.video-card img, .shorts-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.inner-card-content{
+    display: flex;
+}
+
+.inner-card-content img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+
+.inner-card-content h2, .shorts-h2{
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.inner-card-content p, .shorts-p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* shorts box inside main box */
+
+.shorts-box{
+    margin: 30px 0;
+    border-top: 4px solid #f4f4f4;
+    border-bottom: 4px solid #f4f4f4;
+    height: 500px;
+    width: 100%;
+}
+
+.shorts-box-header{
+    display: flex;
+    align-items: center;
+}
+
+.shorts-box-header img{
+  width: 26px;
+  margin-left: 10px;
+}
+
+.shorts-box-header p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17px;
+    margin-left: 6px;
+}
+
+/* shorts box content */
+
+.shorts-box-content{
+    display: flex;
+}
+
+/* shorts video box */
+
+.shorts-video-box{
+    width: 164px;
+    margin: 0 8px;
+}
+
+/* more shorts */
+
+.more-shorts{
+    margin: 30px 0 0 905px;
+}
